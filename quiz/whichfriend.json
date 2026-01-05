@@ -1,6 +1,6 @@
 {
   "title": "Which of My Friends Are You?",
-  "description": "There is not a single good result to this test. You WILL be disappointed, embarrassed, and possibly suicidal by the end of this.",
+  "description": "Hi Patrick and Luka.",
   "landingImage": "images/friend.png",
   "type": "two-options",
   "questions": [
@@ -210,7 +210,7 @@
       "options": [
         { "text": "Omfg I have to hide before they get me", "scores": { "Tom": 4, "Aaron": 8, "Alex": 5, "Cillian": 8, "Val": 5, "Jun": 0, "Luka": 7, "Aoife B": 6, "Patrick": 5, "Ruaidhri": 6 } },
         { "text": "Thank fuck I'm free from that eejit", "scores": { "Tom": 7, "Aaron": 2, "Alex": 2, "Cillian": 3, "Val": 0, "Jun": 9, "Luka": 1, "Aoife B": 4, "Patrick": 3, "Ruaidhri": 0 } },
-        { "text": "I'll kill myself. Seriously.", "scores": { "Tom": 4, "Aaron": 5, "Alex": 8, "Cillian": 4, "Val": 10, "Jun": 6, "Luka": 7, "Aoife B": 5, "Patrick": 7, "Ruaidhri": 9 } }
+        { "text": "Lowkirkenuinely jeet Luigi then kill myself", "scores": { "Tom": 4, "Aaron": 5, "Alex": 8, "Cillian": 4, "Val": 10, "Jun": 6, "Luka": 7, "Aoife B": 5, "Patrick": 7, "Ruaidhri": 9 } }
       ]
     }
   ],
@@ -221,7 +221,7 @@
     },
     "Aaron": {
       "image": "images/aaron.png",
-      "description": "You are Aaron! This means you are tapped in the head!"
+      "description": "You are Aaron! Nico Bargonzolli!"
     },
     "Alex": {
       "image": "images/alex.png",
@@ -233,11 +233,11 @@
     },
     "Luka": {
       "image": "images/luka.png",
-      "description": "You are Luka! You are placing blocks and shit cuz you're in freaking Minecraft..."
+      "description": "You are Luka! You look like if Mr O'Brien was straight"
     },
     "Val": {
       "image": "images/val.png",
-      "description": "You are Val! This is most likely the highest form of praise you can get from this test..."
+      "description": "You are Val! Sigh"
     },
     "Jun": {
       "image": "images/jun.png",
@@ -249,11 +249,11 @@
     },
     "Patrick": {
       "image": "images/patrick.png",
-      "description": "You are Patrick! Enjoy scoliosis..."
+      "description": "You are Patrick! Hey Rick... watch out... Larry wants you."
     },
     "Ruaidhri": {
       "image": "images/ruaidhri.png",
-      "description": "You are Ruaidhri! The worst option..."
+      "description": "You are Ruaidhri! FAGGOT HOW DID YOU GET ME"
     }
   }
 }
