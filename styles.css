@@ -1,0 +1,159 @@
+/* Logo container styling */
+#logo-link {
+  display: flex;  /* Use Flexbox to center the logo */
+  justify-content: center;  /* Horizontally center the logo */
+  align-items: center;  /* Vertically center the logo */
+  width: 50px;  /* Set the container width */
+  height: 50px;  /* Set the container height */
+  position: fixed;  /* Fixed positioning for the logo container */
+  top: 10px;  /* Reduced margin from top */
+  left: 10px;  /* Reduced margin from left */
+  border: 0.1em solid #3498db;  /* Border size scales with container */
+  border-radius: 10px;  /* Slightly rounded corners */
+  background-color: transparent;  /* Transparent background for the logo container */
+  box-sizing: border-box;  /* Include border and padding in element's size */
+  overflow: hidden;  /* Prevent logo from overflowing the container */
+  z-index: 10;  /* Ensure the logo stays on top */
+}
+
+/* Logo styling - ensures the logo fills its container */
+#logo {
+  width: 100%;  /* Ensure logo fills the container's width */
+  height: 100%;  /* Ensure logo fills the container's height */
+  object-fit: cover;  /* Ensure logo covers the container, clipping if necessary */
+  margin: 0;  /* Remove any margin */
+  padding: 0;  /* Remove any padding */
+  box-sizing: border-box;  /* Ensure padding and borders are part of the box size */
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Hover effect for the logo */
+#logo-link:hover {
+  transform: scale(1.1);  /* Slightly enlarge the logo */
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.7);  /* Add glowing shadow effect */
+}
+
+/* Styling for the question container */
+#question-container {
+  text-align: center;  /* Center the question text */
+  padding: 20px;
+  margin: 10px;  /* Reduced margin between logo and question */
+  max-width: 600px;  /* Limit the width of the question container */
+  margin-left: auto;
+  margin-right: auto;  /* Center the question container */
+  margin-top: 80px;  /* Reduced space below the logo */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* General image styling for other images (question/result images) */
+img {
+  max-width: 30%;  /* Reduce images to 30% of their container width */
+  height: auto;  /* Maintain aspect ratio */
+  margin: 10px 0;  /* Added spacing above and below the image */
+}
+
+/* Styling for answer options */
+#question-container label {
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Button Styling */
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0 10px;  /* Space between buttons */
+  padding: 10px 20px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* For Previous and Next buttons layout */
+.button-container {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Styling for the ranking options */
+#rank-list {
+  list-style-type: none;  /* Remove default list bullets */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;  /* Space between options */
+}
+
+#rank-list li {
+  background-color: #fff;  /* White background for each option */
+  border: 1px solid #ddd;  /* Light border around the option */
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 12px;  /* Rounded corners */
+  cursor: grab;
+  font-size: 18px;
+  color: #333;  /* Darker color for text to ensure readability */
+  font-weight: bold;  /* Optional: Make the text bold for better readability */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#rank-list li:active {
+  background-color: #eaeaea;  /* Darken background when clicked */
+  color: #3498db;  /* Change text color on drag to a blue color */
+  cursor: grabbing;
+}
+
+#rank-list li:hover {
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.7);  /* Glowing effect on hover */
+}
+
+/* For smaller screens */
+@media (max-width: 600px) {
+  #logo-link {
+    width: 30px;  /* Adjust container width */
+    height: 30px;  /* Adjust container height */
+    border: 0.08em solid #3498db;  /* Scale border size with container */
+  }
+
+  #logo {
+    width: 100%;  /* Ensure the logo scales proportionally */
+    height: 100%;
+  }
+
+  img {
+    max-width: 50%;  /* Slightly larger images on mobile for readability */
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  #question-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 70px;  /* Adjusted margin for better spacing on smaller screens */
+  }
+}

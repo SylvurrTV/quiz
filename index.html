@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Most Amazing Test Thing Ever</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">  <!-- Link to your CSS file -->
+</head>
+<body style="background-color: #060c21; color: white; font-family: 'Montserrat', sans-serif;">
+
+  <!-- Logo wrapped in anchor tag to open website in a new tab -->
+  <a href="https://sylvurr.com" target="_blank" id="logo-link">
+    <img id="logo" src="https://sylvurr.com/img/logo.png" alt="Logo">
+  </a>
+
+  <div id="question-container">
+    <!-- Question content will be dynamically injected here -->
+  </div>
+
+  <!-- Button container for previous/next/submit buttons -->
+  <div class="button-container">
+    <button id="prev-btn" style="display: none;">Previous</button>
+    <button id="next-btn">Next</button>
+    <button id="submit-btn" style="display: none;">Submit</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Link to your JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
